@@ -29,3 +29,10 @@ Types of tests -
 4) Acceptance/End-to-end tests
 
 Accessibility and Finding elements - getByRole('link', {name : 'React App'})
+https://www.w3.org/TR/wai-aria/#role_definitions
+https://github.com/testing-library/jest-dom
+
+import { render, screen, fireEvent } from "@testing-library/react";
+
+screen - global object screen have access to virtualDOM created by render
+fireEvent - that helps us to interact with the virtualDOM
