@@ -1,0 +1,31 @@
+React Testing Library vs Jest
+
+React Testing Library - React Testing Library provides a virtual dom for tests
+Jest - Jest is a test runner that finds test, run tests and determines whether tests pass or fail 
+
+Jest Assertions - 
+1)expect(linkElement).toBeInTheDocument();
+expect - jest global,start the assertion
+matcher - type of assertion this matcher comes from jest-dom
+2)expect(elemet.textContent).toBe('Hello');
+3)expect(elementsArray).toHaveLength(5);
+
+Jest-DOM -
+src/setupTests.js imports it before each test, makes watchers available
+DOM based matchers eg - toBeVisible() or toBeChecked
+
+Jest - 
+React Testing Library helps with rendering components into virtualDOM, searching virtualDOM, interacting with virtualDOM
+It needs a test runner - find tests, run them, make assertions
+
+npm test - runs a script that runs jest in watch mode
+watch mode - watch for changes in file since last commit
+
+TDD(Test Driven Development)
+Types of tests - 
+1) Unit tests - tests one unit of code in isolation
+2) Integration tests - how multiple units work together
+3) Functional tests - tests a particular function of software
+4) Acceptance/End-to-end tests
+
+Accessibility and Finding elements - getByRole('link', {name : 'React App'})
