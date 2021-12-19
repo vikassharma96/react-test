@@ -36,3 +36,19 @@ import { render, screen, fireEvent } from "@testing-library/react";
 
 screen - global object screen have access to virtualDOM created by render
 fireEvent - that helps us to interact with the virtualDOM
+
+Unit testing functions - 
+function seperate from components
+used by several components or have complex logic
+
+describe statements is a way to grouping test
+
+ESLint - popular linter for javascript - linter is basically a tool that analyzes syntax and marks syntax that breaks rule
+keeps code styling consistent
+Prettier - It is formatter
+
+testing library and jest dom eslint plugin
+
+plugins and rules to be used for eslint linter
+https://github.com/bonnie/bonniedotdev/blob/main/client/.eslintrc.json
+https://code.visualstudio.com/docs/getstarted/settings
