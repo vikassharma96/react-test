@@ -1,0 +1,17 @@
+How To Manage State with Hooks on React Components -
+https://blog.logrocket.com/guide-to-react-usereducer-hook/
+
+Hooks are functions that let you run actions as part of the React lifecycle. Hooks are triggered either by other actions or by changes in a 
+component’s props and are used to either create data or to trigger further changes. For example, the useState Hook generates a stateful piece 
+of data along with a function for changing that piece of data and triggering a re-render. It will create a dynamic piece of code and hook into 
+the lifecycle by triggering re-renders when the data changes.
+
+useState is a function that takes the initial state as an argument and returns an array with two items. first item is the state and second
+item is the function.
+
+One important difference between Hooks and class-based state management is that, in class-based state management, there is a single state object.
+With Hooks, state objects are completely independent of each other, so you can have as many state objects as you want.
+
+Although useState is a Basic Hook for managing simple state transformation and useReducer is an Additional Hook for managing more complex state 
+logic, it is worth noting that useState uses the useReducer internally. This implies that you could use useReducer for everything you can do 
+with useState.
