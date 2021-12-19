@@ -52,3 +52,5 @@ testing library and jest dom eslint plugin
 plugins and rules to be used for eslint linter
 https://github.com/bonnie/bonniedotdev/blob/main/client/.eslintrc.json
 https://code.visualstudio.com/docs/getstarted/settings
+
+it's recommended to use userevent than fireevent
