@@ -61,3 +61,5 @@ which mock our response
 2. create test server
 3. make sure test server listens during all tests
     reset after each test
+
+Whenever we are waiting for something to appear asynchronously on the page we must have to use await findBy
