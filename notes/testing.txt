@@ -54,3 +54,10 @@ https://github.com/bonnie/bonniedotdev/blob/main/client/.eslintrc.json
 https://code.visualstudio.com/docs/getstarted/settings
 
 it's recommended to use userevent than fireevent
+
+Mock service worker - used to intercept network call and return specific response. It's not a end to end test instead of it it's functional test
+which mock our response
+1. create handler
+2. create test server
+3. make sure test server listens during all tests
+    reset after each test
